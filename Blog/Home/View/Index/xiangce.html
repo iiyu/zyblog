@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport"  content="width=device-width, initial-scale=1.0, user-scalable=0, maximum-scale=1.0" />
+<title>宇的相册</title>
+
+<style type="text/css">
+body{font-size:14px;background-color:#fff}
+</style>
+
+<link rel="stylesheet" href="__PUBLIC__/PhotoAlbum/css/styles.css" />
+<link rel="stylesheet" href="__PUBLIC__/PhotoAlbum/touchTouch/touchTouch.css" />
+<!--[if lt IE 9]>
+	<script src="js/html5.js"></script>
+<![endif]-->
+
+</head> 
+<body>
+
+<header>
+	<h1>Photo Album</h1>
+</header>
+<volist name="arr1" id="vo">
+<div id="thumbs">
+	<h1>{$vo.title}</h1>
+	<volist name="arr2" id="vo1">
+	<if condition="$vo['id'] eq $vo1['pid']">
+	<a href="__PUBLIC__/Uploads/{$vo1.pic}" style="background-image:url(__PUBLIC__/Uploads/{$vo1.pic})" title="{$vo1.name}"></a>
+	</if>
+	</volist>
+</div>
+</volist>
+<p id="credit">
+	路在脚下，行万里路 读万卷书。
+</p>
+<script src="__PUBLIC__/PhotoAlbum/js/jquery-1.7.1.min.js"></script>
+<script src="__PUBLIC__/PhotoAlbum/touchTouch/touchTouch.jquery.js"></script>
+<script>
+$(function(){
+	$('#thumbs a').touchTouch();
+});
+</script>	
+</body>
+</html>

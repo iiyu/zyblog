@@ -1,0 +1,2159 @@
+[ 2016-04-25T13:54:14+08:00 ] 120.194.101.93 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'127.0.0.1' (using password: YES)
+
+[ 2016-04-25T13:55:25+08:00 ] 120.194.101.93 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'127.0.0.1' (using password: YES)
+
+[ 2016-04-25T13:55:27+08:00 ] 120.194.101.93 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'127.0.0.1' (using password: YES)
+
+[ 2016-04-25T13:57:14+08:00 ] 222.88.236.165 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0007s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2016-04-25T13:57:25+08:00 ] 222.88.236.165 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-04-25T14:08:25+08:00 ] 120.194.101.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2016-04-25T14:21:02+08:00 ] 122.11.37.74 /?ip=115.159.214.239:80&type=http
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2016-04-25T14:22:04+08:00 ] 122.207.223.191 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-04-25T14:27:13+08:00 ] 120.194.101.85 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-04-25T14:30:14+08:00 ] 120.194.101.85 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2016-04-25T14:30:27+08:00 ] 218.28.87.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-04-25T14:30:55+08:00 ] 218.28.87.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2016-04-25T14:36:36+08:00 ] 122.207.223.188 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2016-04-25T14:47:14+08:00 ] 218.28.87.28 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0007s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-04-25T14:47:40+08:00 ] 218.28.87.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2016-04-25T14:47:48+08:00 ] 218.28.87.18 /Home/Index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-04-25T14:47:48+08:00 ] 218.28.87.18 /Home/Index/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+ERR: 非法操作:js
+
+[ 2016-04-25T14:47:51+08:00 ] 218.28.87.18 /Home/Riji/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `blog_diary` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_diary` ORDER BY ctime desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2016-04-25T14:47:56+08:00 ] 218.28.87.18 /Home/Bowen/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /yjdata/www/thinkphp/Blog/Home/Controller/BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( status=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,4 [ RunTime:0.0004s ]
+SQL: SELECT `username`,blog_article.title,blog_article.id FROM `blog_article` INNER JOIN blog_admin on blog_article.uid=blog_admin.id  ORDER BY view desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-04-25T14:48:01+08:00 ] 218.28.87.18 /Home/Index/xiangce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `blog_photo` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_slides` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_photo`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_slides`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2016-04-25T14:48:07+08:00 ] 218.28.87.18 /Home/Message/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `blog_liuyan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_liuyan`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2016-04-25T14:48:10+08:00 ] 218.28.87.18 /Home/Message/verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-04-25T14:48:14+08:00 ] 218.28.87.18 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0007s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2016-04-25T14:50:41+08:00 ] 222.88.236.167 /Home/Index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-04-25T14:50:42+08:00 ] 222.88.236.167 /Home/Index/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+ERR: 非法操作:js
+
+[ 2016-04-25T14:50:43+08:00 ] 222.88.236.167 /Home/Riji/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `blog_diary` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_diary` ORDER BY ctime desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2016-04-25T14:50:44+08:00 ] 222.88.236.167 /Home/Bowen/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /yjdata/www/thinkphp/Blog/Home/Controller/BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( status=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,4 [ RunTime:0.0004s ]
+SQL: SELECT `username`,blog_article.title,blog_article.id FROM `blog_article` INNER JOIN blog_admin on blog_article.uid=blog_admin.id  ORDER BY view desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-04-25T14:50:45+08:00 ] 222.88.236.167 /Home/Index/xiangce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `blog_photo` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_slides` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_photo`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_slides`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2016-04-25T14:50:50+08:00 ] 222.88.236.167 /Home/Message/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `blog_liuyan` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_liuyan`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2016-04-25T14:50:52+08:00 ] 222.88.236.167 /Home/Message/verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2016-04-25T14:51:00+08:00 ] 222.88.236.167 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2016-04-25T14:55:28+08:00 ] 218.28.87.28 /Home/Bowen/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /yjdata/www/thinkphp/Blog/Home/Controller/BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( status=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,4 [ RunTime:0.0004s ]
+SQL: SELECT `username`,blog_article.title,blog_article.id FROM `blog_article` INNER JOIN blog_admin on blog_article.uid=blog_admin.id  ORDER BY view desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-04-25T14:55:33+08:00 ] 218.28.87.28 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-04-25T14:57:48+08:00 ] 222.88.236.167 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0005s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2016-04-25T14:57:53+08:00 ] 222.88.236.167 /Home/Bowen/show/id/66/user/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /yjdata/www/thinkphp/Blog/Home/Controller/BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 66 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 65 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 67 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-04-25T14:57:54+08:00 ] 222.88.236.167 /Home/Bowen/show/id/66/user/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /yjdata/www/thinkphp/Blog/Home/Controller/BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 66 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 65 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 67 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2016-04-25T14:58:01+08:00 ] 222.88.236.167 /Home/Index/xiangce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `blog_photo` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_slides` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_photo`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_slides`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-04-25T14:58:18+08:00 ] 122.207.223.188 /Home/Bowen/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /yjdata/www/thinkphp/Blog/Home/Controller/BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( status=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,4 [ RunTime:0.0004s ]
+SQL: SELECT `username`,blog_article.title,blog_article.id FROM `blog_article` INNER JOIN blog_admin on blog_article.uid=blog_admin.id  ORDER BY view desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-04-25T14:58:23+08:00 ] 122.207.223.188 /Home/Bowen/index/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /yjdata/www/thinkphp/Blog/Home/Controller/BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( status=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 20,4 [ RunTime:0.0005s ]
+SQL: SELECT `username`,blog_article.title,blog_article.id FROM `blog_article` INNER JOIN blog_admin on blog_article.uid=blog_admin.id  ORDER BY view desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2016-04-25T14:58:26+08:00 ] 122.207.223.188 /Home/Bowen/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /yjdata/www/thinkphp/Blog/Home/Controller/BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( status=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 12,4 [ RunTime:0.0004s ]
+SQL: SELECT `username`,blog_article.title,blog_article.id FROM `blog_article` INNER JOIN blog_admin on blog_article.uid=blog_admin.id  ORDER BY view desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2016-04-25T14:58:30+08:00 ] 122.207.223.188 /Home/Bowen/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /yjdata/www/thinkphp/Blog/Home/Controller/BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE ( status=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 8,4 [ RunTime:0.0004s ]
+SQL: SELECT `username`,blog_article.title,blog_article.id FROM `blog_article` INNER JOIN blog_admin on blog_article.uid=blog_admin.id  ORDER BY view desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-04-25T15:03:31+08:00 ] 123.56.64.43 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2016-04-25T15:31:19+08:00 ] 122.207.223.191 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-04-25T15:32:22+08:00 ] 122.207.223.191 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2016-04-25T15:32:30+08:00 ] 122.207.223.191 /Home/Shijuhua/show/id/106
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /yjdata/www/thinkphp/Blog/Home/Controller/ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 106 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 105 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 107 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: name /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-04-25T15:32:30+08:00 ] 222.88.236.168 /Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /yjdata/www/thinkphp/Blog/Home/Controller/ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0005s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'js' in 'where clause'
+
+[ 2016-04-25T15:32:37+08:00 ] 222.88.236.168 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-04-25T16:22:17+08:00 ] 122.11.37.74 /?ip=115.159.214.239:80&type=http
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2016-04-25T16:40:46+08:00 ] 222.88.236.161 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2016-04-25T16:41:50+08:00 ] 122.207.223.188 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2016-04-25T16:44:35+08:00 ] 120.194.101.86 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-04-25T16:44:46+08:00 ] 120.194.101.86 /Home/Index/xiangce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `blog_photo` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_slides` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_photo`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_slides`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2016-04-25T16:48:12+08:00 ] 120.194.101.86 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0005s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-04-25T16:49:56+08:00 ] 122.207.223.191 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2016-04-25T17:11:10+08:00 ] 222.88.236.161 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-04-25T17:22:15+08:00 ] 122.207.223.184 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0009s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2016-04-25T17:22:25+08:00 ] 120.194.101.85 /Home/Bowen/show/id/67/user/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /yjdata/www/thinkphp/Blog/Home/Controller/BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 67 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 66 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 68 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-04-25T17:22:25+08:00 ] 120.194.101.85 /Home/Bowen/show/id/67/user/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /yjdata/www/thinkphp/Blog/Home/Controller/BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 67 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 66 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 68 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-04-25T17:56:01+08:00 ] 218.28.87.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-04-25T17:56:10+08:00 ] 218.28.87.18 /Home/Index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-04-25T17:56:10+08:00 ] 218.28.87.18 /Home/Index/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+ERR: 非法操作:js
+
+[ 2016-04-25T17:56:14+08:00 ] 218.28.87.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-04-25T17:56:18+08:00 ] 218.28.87.18 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-04-25T17:56:30+08:00 ] 218.28.87.18 /Home/Index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2016-04-25T17:56:30+08:00 ] 218.28.87.18 /Home/Index/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+ERR: 非法操作:js
+
+[ 2016-04-25T17:56:38+08:00 ] 218.28.87.18 /Home/Riji/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `blog_diary` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_diary` ORDER BY ctime desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2016-04-25T17:57:26+08:00 ] 218.28.87.18 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-04-25T17:58:04+08:00 ] 218.28.87.18 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2016-04-25T18:01:12+08:00 ] 122.207.223.188 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0007s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-04-25T18:01:28+08:00 ] 122.207.223.188 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0007s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-04-25T18:02:49+08:00 ] 122.207.223.191 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2016-04-25T18:06:49+08:00 ] 222.88.236.167 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2016-04-25T19:06:35+08:00 ] 123.56.233.113 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0005s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-04-25T19:09:27+08:00 ] 183.60.48.110 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-04-25T20:40:04+08:00 ] 5.39.222.159 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0007s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-04-25T23:15:08+08:00 ] 123.151.43.65 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0005s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title /yjdata/www/thinkphp/Blog/Runtime/Cache/Home/a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+

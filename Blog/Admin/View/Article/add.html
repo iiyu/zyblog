@@ -1,0 +1,66 @@
+<include file="Public/top"/>
+<include file="Public/left"/>
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="__MODULE__/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="__MODULE__/Article/index">博文管理</a><span class="crumb-step">&gt;</span><span>新增博文</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="__MODULE__/Article/doadd" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody><tr>
+                            <th width="120"><i class="require-red">*</i>分类：</th>
+                            <td>
+                                <select name="pid" id="catid" class="required">
+                                <volist name="alist" id="vo">                               
+                                <option value="{$vo.id}">{:str_repeat("-",$vo['count']-2)}{$vo.name}
+                                </option>
+                                </volist>
+                            </td>
+                        </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>标题：</th>
+                                <td>
+                                    <input class="common-text required" id="title" name="title" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>作者：</th>
+                                <td><input class="common-text" name="author" size="50" value="admin" type="text"></td>
+                            </tr>
+                            <tr>
+                                <th>关键字：</th>
+                                <td><input class="common-text" name="biaoqian" size="50" type="text"></td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>缩略图：</th>
+                                <td><input name="pic" id="" type="file"></td>
+                            </tr>
+                            <tr>
+                                <th>内容：</th>
+                                <link href="__PUBLIC__/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+                                    <script type="text/plain" name="content" id="myEditor" style="width:100%;height:510px;">
+                                    <p>留下你的足迹吧</p>
+                                    </script>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody>
+                        </table>
+                </form>
+            </div>
+        </div>
+        <!-- 调用脚部文件 -->
+        <include file="Public/footer"/>
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>

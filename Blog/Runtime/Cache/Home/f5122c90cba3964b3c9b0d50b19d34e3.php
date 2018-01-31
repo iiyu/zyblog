@@ -1,0 +1,79 @@
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>关于我-周宇博客</title>
+<meta name="keywords" content="个人博客,周宇个人博客,个人博客模板," />
+<meta name="description" content="" />
+<link href="/SIRzhouHome/Public/Home/css/index.css" rel="stylesheet">
+<link href="/SIRzhouHome/Public/Home/css/ty.css" rel="stylesheet">
+<link rel="stylesheet" href="/SIRzhouHome/Public/HTML5/junk/readme.css" type="text/css" media="screen">
+
+  <script type="text/javascript" src="/SIRzhouHome/Public/HTML5/js/jquery.min.js"></script>
+  <script type="text/javascript" src="/SIRzhouHome/Public/HTML5/js/speakker-big.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    projekktor('.projekktor');
+  });
+  </script>
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<header>
+  <div id="logo"><a href="/"></a></div>
+  <nav class="topnav" id="topnav">
+      <a href="/SIRzhouHome/index.php/Home/Index/index"><span>首页</span><span class="en">Honme</span></a>
+      <a href="/SIRzhouHome/index.php/Home/Index/about"><span>关于我</span><span class="en">About</span></a>
+      </a><a href="/SIRzhouHome/index.php/Home/Riji/index"><span>个人日记</span><span class="en">Diary</span></a>
+      <a href="/SIRzhouHome/index.php/Home/Bowen/index"><span>学习痕迹</span><span class="en">Seo</span></a>
+       <a href="/SIRzhouHome/index.php/Home/Index/xiangce" target="_Blank"><span>宇的相册</span><span class="en">Photo</span></a>
+      <a href="/SIRzhouHome/index.php/Home/Message/index"><span>留言版</span><span class="en">Gustbook</span></a>
+  </nav>
+</header>
+<article class="aboutcon">
+<h1 class="t_nav"><span>像“草根”一样，紧贴着地面，低调的存在，冬去春来，枯荣无恙。</span><a href="/SIRzhouHome/index.php/Home/Index/index" class="n1">网站首页</a><a href="/SIRzhouHome/index.php/Home/Index/about" class="n2">关于我</a></h1>
+<div class="about left">
+  <h2>About me</h2>
+  <div id="me_text">
+       <p>我以后将是一个程序员，在学校每天在计算机面前一坐就是10多个小时，我现在都分不清是为了更好的生活而玩命学习，还是为了更好的工作而用心生活，在现在的生活和学习之间我很难找到一个平衡点！
+和所有的男人一样，我崇尚尊严，喜欢荣誉，渴望成功。通向成功的道路是孤独的，工作之余，午夜时分，我静静的躺在床上，一个人品味着这份属于自己的孤独，但在孤独的背后，我渴望一份真挚的爱情，渴望有人在乎我，就像我在乎她一样，不需要惊天动地，不需要海誓山盟，只要相濡以沫，彼此搀扶着、陪伴着走完人生的旅途。</p>
+<p>本人比较传统，不喜欢看韩剧，尤其是韩国的娱乐节目，不喜欢“非主流”,也不处No thought, no reading，no personality的女孩子，我不在乎你的出生，你可以外表平平，但我会毫不犹豫的排除思想平庸的女孩子，我喜欢看欧美的电影（喜欢美国口音和欧美人的思维方式），喜欢看历史（全球）。</p>
+<p>任何事都需要一个过程，相识、彼此了解亦如是，如果觉得我们投缘，可以给我发邮件，最好有个简单的自我介绍（简单的介绍一下自己目前的生活，还有个人的喜好），所有的邮件我都会回，要是我觉得合适我就会留下我的联系方式，方便彼此以后更好的交流。愿与君共勉、。----By:<span style="color:#f00">周宇</span></p>
+  </div> 
+</div>
+<aside class="right">  
+    <div class="about_c">
+    <p>网名：<span>小苹果</span></p>
+    <p>姓名：<a href="http://www.sirzhou.cn" target="_blank">周宇</a></p>
+    <p>星座：天平座</p>
+    <p>现居：河南省-南阳市</p>
+    <p>博客：<a href="http://www.sirzhou.cn" target="_blank">www.sirzhou.cn</a></p>
+    <p>喜欢的书:文学,历史,IT..</p>
+    <p>喜欢的音乐:随心情而变..</p>
+    <div class="about_qq"><span>联系博主：</span><a href="http://wpa.qq.com/msgrd?v=3&uin=495732134&site=qq&menu=yes" title="联系博主" target="_blank"><p></p></a>
+     <div class="clear"></div>
+    </div>
+    <div ><span display="block">邮箱：zhouyu333@live.com</span><p></p>
+    <div class="clear"></div>
+    </div>
+</div>     
+</aside>
+</article>
+<footer>
+   <p><span>Design By:<a href="http://www.sirzhou.cn" target="_blank">周</a></span><span>网站地图</span><span><a href="/">网站统计</a></span>
+  <span>微信表白墙:<a href="http://www.sirzhou.cn/weixin/w/" target="_blank">在这里</a></span>
+  </p>
+<!--    <div id="wrap">
+ <div class="inside">
+   <audio class="projekktor speakker dark">
+     <source src="/SIRzhouHome/Public/HTML5/js/playlist.js" type="application/json"/>
+   </audio>
+ </div>
+  </div>
+  <script type="text/javascript" src="/SIRzhouHome/Public/HTML5/junk/noise.js"></script> -->
+</footer>
+<script src="js/nav.js"></script>
+</body>
+</html>

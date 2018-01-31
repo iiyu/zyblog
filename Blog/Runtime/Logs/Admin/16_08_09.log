@@ -1,0 +1,113 @@
+[ 2016-08-09T18:54:57+08:00 ] 127.0.0.1 /SIRzhouHome/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\SIRzhouHome\Blog\Admin\Controller\CommonController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+
+[ 2016-08-09T18:55:00+08:00 ] 127.0.0.1 /SIRzhouHome/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2016-08-09T18:55:01+08:00 ] 127.0.0.1 /SIRzhouHome/index.php/Admin/Login/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2016-08-09T18:55:11+08:00 ] 127.0.0.1 /SIRzhouHome/index.php/admin/work/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\SIRzhouHome\Blog\Admin\Util\Vquery.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\SIRzhouHome\Blog\Admin\Util\Vquery.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\SIRzhouHome\Blog\Admin\Util\Vquery.class.php 第 51 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("女人这一生，最看重的永远是婚姻。她会把婚姻的成功当成人生最大的成功。其实很多姑娘，并不是不敢裸婚，只是害怕柴米油盐浸透了浪漫，爱情在贫贱面前无处容身。一个男人，可以不够有钱，但一定要给你爱的女人信心。女人可以吃苦受穷，但前提一定得是：那个男人对她的爱，值得让她去煎熬。",1470740110,"http://t1.qpic.cn/mblogpic/045e683b565a4b35eede/460") [ RunTime:0.0003s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '没有办法在一起的人"，其实就是"错的人"。--勺布斯",1470740111' at line 1
+ [ SQL语句 ] : insert into blog_shijuhua(content,ctime,pic) values ("每个人的一生里都会遇见一个没有办法在一起的人吧，很多时候，我们觉得那是无法抵御的强烈爱情，最后经历悲痛分别，以为人生的遗憾不过如此了。时过境迁，一晃好几年，再回头去看看那些荒唐岁月，竟要感谢当初那份不得已的选择，因为开始懂得，原来"没有办法在一起的人"，其实就是"错的人"。--勺布斯",1470740111,"http://t1.qpic.cn/mblogpic/202abca38f4360d6e8d0/460")
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '没有办法在一起的人"，其实就是"错的人"。--勺布斯",1470740111' at line 1
+ [ SQL语句 ] : insert into blog_shijuhua(content,ctime,pic) values ("每个人的一生里都会遇见一个没有办法在一起的人吧，很多时候，我们觉得那是无法抵御的强烈爱情，最后经历悲痛分别，以为人生的遗憾不过如此了。时过境迁，一晃好几年，再回头去看看那些荒唐岁月，竟要感谢当初那份不得已的选择，因为开始懂得，原来"没有办法在一起的人"，其实就是"错的人"。--勺布斯",1470740111,"http://t1.qpic.cn/mblogpic/202abca38f4360d6e8d0/460")
+
+[ 2016-08-09T19:11:17+08:00 ] 127.0.0.1 /SIRzhouHome/index.php/admin/work/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\SIRzhouHome\Blog\Admin\Util\Vquery.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\SIRzhouHome\Blog\Admin\Util\Vquery.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\SIRzhouHome\Blog\Admin\Util\Vquery.class.php 第 51 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("女人这一生，最看重的永远是婚姻。她会把婚姻的成功当成人生最大的成功。其实很多姑娘，并不是不敢裸婚，只是害怕柴米油盐浸透了浪漫，爱情在贫贱面前无处容身。一个男人，可以不够有钱，但一定要给你爱的女人信心。女人可以吃苦受穷，但前提一定得是：那个男人对她的爱，值得让她去煎熬。",1470741076,"http://t1.qpic.cn/mblogpic/045e683b565a4b35eede/460") [ RunTime:0.0004s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("每个人的一生里都会遇见一个没有办法在一起的人吧，很多时候，我们觉得那是无法抵御的强烈爱情，最后经历悲痛分别，以为人生的遗憾不过如此了。时过境迁，一晃好几年，再回头去看看那些荒唐岁月，竟要感谢当初那份不得已的选择，因为开始懂得，原来“没有办法在一起的人”，其实就是“错的人”。--勺布斯",1470741077,"http://t1.qpic.cn/mblogpic/202abca38f4360d6e8d0/460") [ RunTime:0.0003s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("奋斗的意义除了让自己可以吃喝玩乐，还有一部分的原因是让自己喜欢的人也吃喝玩乐。我吃苦可以，但你不行。我要给你劈开一条路，然后再在这条路种上芬芳花朵，布置白云蓝天，你快乐就好了，我就使劲奋斗吧。",1470741077,"http://t1.qpic.cn/mblogpic/5602cd6f462b10c5c82a/460") [ RunTime:0.0003s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("所谓的成长，大概就是能把“傻逼卧槽尼玛炸了”几个字滚烫的吞下去，再吐出暖暖的“好的呀，谢谢你”吧。咽下去的内伤，还需要自己调理。",1470741077,"http://t1.qpic.cn/mblogpic/580c2c4115bdd68dbf8a/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("直到有一天，你像别人曾对你付出那样对某个人好的时候，你才会明白那种赴汤蹈火和身不由己。明白原来那些辗转几条街为你买来的美味蛋糕不是顺路碰到，密密发来的信息不是因为无聊，为你花钱大手大脚不是因为生性大方，只是刚好，因为是你。",1470741077,"http://t1.qpic.cn/mblogpic/5602cd6f462b10c5c82a/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("如果一个男人能够：1.把你相片放到手机屏幕2.随时给你翻手机3.把微信密码告诉你4.把银行卡和密码给你……那么你就取了他的钱走吧！",1470741077,"http://t1.qpic.cn/mblogpic/1aa05725b0480e92d7d6/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("变心的哪个当初没海誓山盟？赖账的谁不说“下个月一定还”？承诺只是一种仪式，真正靠得住的是不动产抵押。",1470741077,"http://t1.qpic.cn/mblogpic/233b2d89e3df7f7232bc/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("人家说“考虑一下”的意思，也许并不是真的在考虑是否接受你，而是在考虑用什么措辞来拒绝你。",1470741077,"http://t1.qpic.cn/mblogpic/202abca38f4360d6e8d0/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("谁规定的人失落难过的时候非得要忙得起飞日子才好过？要我说难过的时候你就得好好休息，和自己推心置腹敞开聊聊。人只要自己放过了自己，世上很多的苦难都不再是问题。",1470741077,"http://t1.qpic.cn/mblogpic/233b2d89e3df7f7232bc/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("从认识一个人到成为知己，再成为陌路，这是一般认识人的结果，或许也是一个不成文的规律吧，毕竟最后能为朋友很少，大多数都是如此结局。知道这一点，看友谊淡然一些，自己豁达一些。虽然自由之中包含寂寞，却也舒服。",1470741077,"http://t1.qpic.cn/mblogpic/5602cd6f462b10c5c82a/460") [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2016-08-09T19:14:51+08:00 ] 127.0.0.1 /SIRzhouHome/index.php/admin/work/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\SIRzhouHome\Blog\Admin\Util\Vquery.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\SIRzhouHome\Blog\Admin\Util\Vquery.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\SIRzhouHome\Blog\Admin\Util\Vquery.class.php 第 51 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("女人这一生，最看重的永远是婚姻。她会把婚姻的成功当成人生最大的成功。其实很多姑娘，并不是不敢裸婚，只是害怕柴米油盐浸透了浪漫，爱情在贫贱面前无处容身。一个男人，可以不够有钱，但一定要给你爱的女人信心。女人可以吃苦受穷，但前提一定得是：那个男人对她的爱，值得让她去煎熬。",1470741290,"http://t1.qpic.cn/mblogpic/045e683b565a4b35eede/460") [ RunTime:0.0007s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("每个人的一生里都会遇见一个没有办法在一起的人吧，很多时候，我们觉得那是无法抵御的强烈爱情，最后经历悲痛分别，以为人生的遗憾不过如此了。时过境迁，一晃好几年，再回头去看看那些荒唐岁月，竟要感谢当初那份不得已的选择，因为开始懂得，原来“没有办法在一起的人”，其实就是“错的人”。--勺布斯",1470741291,"http://t1.qpic.cn/mblogpic/202abca38f4360d6e8d0/460") [ RunTime:0.0003s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("奋斗的意义除了让自己可以吃喝玩乐，还有一部分的原因是让自己喜欢的人也吃喝玩乐。我吃苦可以，但你不行。我要给你劈开一条路，然后再在这条路种上芬芳花朵，布置白云蓝天，你快乐就好了，我就使劲奋斗吧。",1470741291,"http://t1.qpic.cn/mblogpic/5602cd6f462b10c5c82a/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("所谓的成长，大概就是能把“傻逼卧槽尼玛炸了”几个字滚烫的吞下去，再吐出暖暖的“好的呀，谢谢你”吧。咽下去的内伤，还需要自己调理。",1470741291,"http://t1.qpic.cn/mblogpic/580c2c4115bdd68dbf8a/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("直到有一天，你像别人曾对你付出那样对某个人好的时候，你才会明白那种赴汤蹈火和身不由己。明白原来那些辗转几条街为你买来的美味蛋糕不是顺路碰到，密密发来的信息不是因为无聊，为你花钱大手大脚不是因为生性大方，只是刚好，因为是你。",1470741291,"http://t1.qpic.cn/mblogpic/5602cd6f462b10c5c82a/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("如果一个男人能够：1.把你相片放到手机屏幕2.随时给你翻手机3.把微信密码告诉你4.把银行卡和密码给你……那么你就取了他的钱走吧！",1470741291,"http://t1.qpic.cn/mblogpic/1aa05725b0480e92d7d6/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("变心的哪个当初没海誓山盟？赖账的谁不说“下个月一定还”？承诺只是一种仪式，真正靠得住的是不动产抵押。",1470741291,"http://t1.qpic.cn/mblogpic/233b2d89e3df7f7232bc/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("人家说“考虑一下”的意思，也许并不是真的在考虑是否接受你，而是在考虑用什么措辞来拒绝你。",1470741291,"http://t1.qpic.cn/mblogpic/202abca38f4360d6e8d0/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("谁规定的人失落难过的时候非得要忙得起飞日子才好过？要我说难过的时候你就得好好休息，和自己推心置腹敞开聊聊。人只要自己放过了自己，世上很多的苦难都不再是问题。",1470741291,"http://t1.qpic.cn/mblogpic/233b2d89e3df7f7232bc/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("从认识一个人到成为知己，再成为陌路，这是一般认识人的结果，或许也是一个不成文的规律吧，毕竟最后能为朋友很少，大多数都是如此结局。知道这一点，看友谊淡然一些，自己豁达一些。虽然自由之中包含寂寞，却也舒服。",1470741291,"http://t1.qpic.cn/mblogpic/5602cd6f462b10c5c82a/460") [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+

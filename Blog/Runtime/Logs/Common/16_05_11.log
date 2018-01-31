@@ -1,0 +1,195 @@
+[ 2016-05-11T02:02:21+08:00 ] 115.230.124.164 /cgi-bin/common/attr?id=260714&r=0.9997376451028826
+ERR: 无法加载模块:Cgi-bin
+
+[ 2016-05-11T02:20:07+08:00 ] 123.125.71.82 /robots.txt
+ERR: 无法加载模块:Robots
+
+[ 2016-05-11T04:06:05+08:00 ] 213.246.45.128 /cache/global/img/gs.gif
+ERR: 无法加载模块:Cache
+
+[ 2016-05-11T04:50:43+08:00 ] 123.125.67.210 /robots.txt
+ERR: 无法加载模块:Robots
+
+[ 2016-05-11T06:55:05+08:00 ] 115.230.124.164 /cgi-bin/common/attr?id=260714&r=0.4075567093357137
+ERR: 无法加载模块:Cgi-bin
+
+[ 2016-05-11T07:38:43+08:00 ] 120.216.183.80 /Config/SoftConfig.xml
+ERR: 无法加载模块:Config
+
+[ 2016-05-11T07:38:43+08:00 ] 120.216.183.80 /Include/BuildPage/SoftRightPopAdStateV2.shtml
+ERR: 无法加载模块:Include
+
+[ 2016-05-11T07:38:45+08:00 ] 120.216.183.80 /Interface/Ad/IExitAd.aspx
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:38:45+08:00 ] 120.216.183.80 /Interface/SoftUpgradeControl.aspx
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:38:46+08:00 ] 120.216.183.80 /interface/startup.aspx?jsonp=true&callback=CyjhSoft_getInitAd&AjaxAction=SoftIndexTabAd
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:38:46+08:00 ] 120.216.183.80 /Interface/GetServiceQQ.aspx?jsonp=true&callback=cyjh.soft.invokeWebMethod(%22ServerJSONP%22%2C%22getServerKeFuQQ%22%2C
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:38:46+08:00 ] 120.216.183.80 /Interface/GetGameList.aspx?jsonp=true&callback=cyjh.soft.invokeWebMethod(%22ServerJSONP%22%2C%22GameListByFirstName%22%2C
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:38:46+08:00 ] 120.216.183.80 /user/sina/GetUserInfoV3.aspx?jsonp=true&callback=cyjh.soft.invokeWebMethod(%22ServerJSONP%22%2C%22getuserstate%22%2C&r=0.9719245131127536
+ERR: 无法加载模块:User
+
+[ 2016-05-11T07:38:46+08:00 ] 120.216.183.80 /Interface/GetOpenServer.aspx?jsonwebkit=ajax&
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:38:46+08:00 ] 120.216.183.80 /Interface/UserMonitor.aspx?
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:38:47+08:00 ] 120.216.183.80 /SoftTongji/IndexBaiduInit.html?ver=2.1.6.100035&jsonwebkit=true
+ERR: 无法加载模块:SoftTongji
+
+[ 2016-05-11T07:38:52+08:00 ] 120.216.183.80 /Interface/ToolStart.aspx?jsonp=true&callback=cyjh.soft.invokeWebMethod(%22ServerJSONP%22%2C%22InitTool%22%2C&gameSign=ltzn&md5=8ABFE8AC9EC214D68541FCB888C0B4C3
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:38:53+08:00 ] 120.216.183.80 /Interface/GetGameDetail.aspx?jsonp=true&callback=cyjh.soft.invokeWebMethod(%22ServerJSONP%22%2C%22GameToolInit%22%2C&GameSign=ltzn
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:38:55+08:00 ] 120.216.183.80 /Interface/ToolStart.aspx?jsonp=true&callback=cyjh.soft.invokeWebMethod(%22ServerJSONP%22%2C%22InitTool%22%2C&gameSign=ltzn&md5=8ABFE8AC9EC214D68541FCB888C0B4C3
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:38:59+08:00 ] 120.216.183.80 /Interface/ToolStart.aspx?jsonp=true&callback=cyjh.soft.invokeWebMethod(%22ServerJSONP%22%2C%22InitTool%22%2C&gameSign=ltzn&md5=8ABFE8AC9EC214D68541FCB888C0B4C3
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:44:13+08:00 ] 120.216.183.80 /Config/SoftConfig.xml
+ERR: 无法加载模块:Config
+
+[ 2016-05-11T07:44:14+08:00 ] 120.216.183.80 /Include/BuildPage/SoftRightPopAdStateV2.shtml
+ERR: 无法加载模块:Include
+
+[ 2016-05-11T07:44:15+08:00 ] 120.216.183.80 /Interface/SoftUpgradeControl.aspx
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:44:15+08:00 ] 120.216.183.80 /Interface/Ad/IExitAd.aspx
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:44:16+08:00 ] 120.216.183.80 /Interface/GetOpenServer.aspx?jsonwebkit=ajax&
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:44:16+08:00 ] 120.216.183.80 /Interface/GetServiceQQ.aspx?jsonp=true&callback=cyjh.soft.invokeWebMethod(%22ServerJSONP%22%2C%22getServerKeFuQQ%22%2C
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:44:16+08:00 ] 120.216.183.80 /interface/startup.aspx?jsonp=true&callback=CyjhSoft_getInitAd&AjaxAction=SoftIndexTabAd
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:44:16+08:00 ] 120.216.183.80 /Interface/GetGameList.aspx?jsonp=true&callback=cyjh.soft.invokeWebMethod(%22ServerJSONP%22%2C%22GameListByFirstName%22%2C
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:44:16+08:00 ] 120.216.183.80 /user/sina/GetUserInfoV3.aspx?jsonp=true&callback=cyjh.soft.invokeWebMethod(%22ServerJSONP%22%2C%22getuserstate%22%2C&r=0.4483946547843516
+ERR: 无法加载模块:User
+
+[ 2016-05-11T07:44:16+08:00 ] 120.216.183.80 /Interface/UserMonitor.aspx?
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:44:17+08:00 ] 120.216.183.80 /SoftTongji/IndexBaiduInit.html?ver=2.1.6.100035&jsonwebkit=true
+ERR: 无法加载模块:SoftTongji
+
+[ 2016-05-11T07:44:22+08:00 ] 120.216.183.80 /Interface/ToolStart.aspx?jsonp=true&callback=cyjh.soft.invokeWebMethod(%22ServerJSONP%22%2C%22InitTool%22%2C&gameSign=tgzt&md5=C8BA76C279269B1C6BC8A07E38E78FA4
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:44:23+08:00 ] 120.216.183.80 /Interface/GetGameDetail.aspx?jsonp=true&callback=cyjh.soft.invokeWebMethod(%22ServerJSONP%22%2C%22GameToolInit%22%2C&GameSign=tgzt
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:44:25+08:00 ] 120.216.183.80 /Interface/ToolStart.aspx?jsonp=true&callback=cyjh.soft.invokeWebMethod(%22ServerJSONP%22%2C%22InitTool%22%2C&gameSign=tgzt&md5=C8BA76C279269B1C6BC8A07E38E78FA4
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:44:29+08:00 ] 120.216.183.80 /Interface/ToolStart.aspx?jsonp=true&callback=cyjh.soft.invokeWebMethod(%22ServerJSONP%22%2C%22InitTool%22%2C&gameSign=tgzt&md5=C8BA76C279269B1C6BC8A07E38E78FA4
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:45:00+08:00 ] 120.216.183.80 /Config/SoftConfig.xml
+ERR: 无法加载模块:Config
+
+[ 2016-05-11T07:45:01+08:00 ] 120.216.183.80 /Include/BuildPage/SoftRightPopAdStateV2.shtml
+ERR: 无法加载模块:Include
+
+[ 2016-05-11T07:45:02+08:00 ] 120.216.183.80 /Interface/SoftUpgradeControl.aspx
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:45:02+08:00 ] 120.216.183.80 /Interface/Ad/IExitAd.aspx
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:45:03+08:00 ] 120.216.183.80 /Interface/GetOpenServer.aspx?jsonwebkit=ajax&
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:45:04+08:00 ] 120.216.183.80 /Interface/GetServiceQQ.aspx?jsonp=true&callback=cyjh.soft.invokeWebMethod(%22ServerJSONP%22%2C%22getServerKeFuQQ%22%2C
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:45:04+08:00 ] 120.216.183.80 /interface/startup.aspx?jsonp=true&callback=CyjhSoft_getInitAd&AjaxAction=SoftIndexTabAd
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:45:04+08:00 ] 120.216.183.80 /Interface/GetGameList.aspx?jsonp=true&callback=cyjh.soft.invokeWebMethod(%22ServerJSONP%22%2C%22GameListByFirstName%22%2C
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:45:04+08:00 ] 120.216.183.80 /user/sina/GetUserInfoV3.aspx?jsonp=true&callback=cyjh.soft.invokeWebMethod(%22ServerJSONP%22%2C%22getuserstate%22%2C&r=0.6004401419777423
+ERR: 无法加载模块:User
+
+[ 2016-05-11T07:45:04+08:00 ] 120.216.183.80 /Interface/UserMonitor.aspx?
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:45:04+08:00 ] 120.216.183.80 /SoftTongji/IndexBaiduInit.html?ver=2.1.6.100035&jsonwebkit=true
+ERR: 无法加载模块:SoftTongji
+
+[ 2016-05-11T07:45:10+08:00 ] 120.216.183.80 /Interface/ToolStart.aspx?jsonp=true&callback=cyjh.soft.invokeWebMethod(%22ServerJSONP%22%2C%22InitTool%22%2C&gameSign=ltzn&md5=8ABFE8AC9EC214D68541FCB888C0B4C3
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:45:11+08:00 ] 120.216.183.80 /Interface/GetGameDetail.aspx?jsonp=true&callback=cyjh.soft.invokeWebMethod(%22ServerJSONP%22%2C%22GameToolInit%22%2C&GameSign=ltzn
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:45:13+08:00 ] 120.216.183.80 /Interface/ToolStart.aspx?jsonp=true&callback=cyjh.soft.invokeWebMethod(%22ServerJSONP%22%2C%22InitTool%22%2C&gameSign=ltzn&md5=8ABFE8AC9EC214D68541FCB888C0B4C3
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T07:45:17+08:00 ] 120.216.183.80 /Interface/ToolStart.aspx?jsonp=true&callback=cyjh.soft.invokeWebMethod(%22ServerJSONP%22%2C%22InitTool%22%2C&gameSign=ltzn&md5=8ABFE8AC9EC214D68541FCB888C0B4C3
+ERR: 无法加载模块:Interface
+
+[ 2016-05-11T08:39:40+08:00 ] 222.88.236.168 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2016-05-11T10:37:27+08:00 ] 213.246.45.128 /cache/global/img/gs.gif
+ERR: 无法加载模块:Cache
+
+[ 2016-05-11T11:46:15+08:00 ] 115.230.124.164 /cgi-bin/common/attr?id=260714&r=0.8852512952407819
+ERR: 无法加载模块:Cgi-bin
+
+[ 2016-05-11T13:38:22+08:00 ] 122.207.223.184 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2016-05-11T13:48:37+08:00 ] 198.20.70.114 /robots.txt
+ERR: 无法加载模块:Robots
+
+[ 2016-05-11T13:48:41+08:00 ] 198.20.70.114 /sitemap.xml
+ERR: 无法加载模块:Sitemap
+
+[ 2016-05-11T14:12:10+08:00 ] 115.230.124.164 /cgi-bin/common/attr?id=260714&r=0.0811915497698846
+ERR: 无法加载模块:Cgi-bin
+
+[ 2016-05-11T15:58:58+08:00 ] 202.109.143.18 /manager/html
+ERR: 无法加载模块:Manager
+
+[ 2016-05-11T16:07:29+08:00 ] 71.6.165.200 /robots.txt
+ERR: 无法加载模块:Robots
+
+[ 2016-05-11T16:07:29+08:00 ] 71.6.165.200 /sitemap.xml
+ERR: 无法加载模块:Sitemap
+
+[ 2016-05-11T17:10:58+08:00 ] 172.82.166.210 /cache/global/img/gs.gif
+ERR: 无法加载模块:Cache
+
+[ 2016-05-11T21:19:17+08:00 ] 120.194.101.85 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2016-05-11T21:29:57+08:00 ] 115.230.124.164 /cgi-bin/common/attr?id=260714&r=0.5727234050572481
+ERR: 无法加载模块:Cgi-bin
+
+[ 2016-05-11T21:51:32+08:00 ] 221.231.6.195 /templets/default/style/dedecms.css
+ERR: 无法加载模块:Templets
+
+[ 2016-05-11T23:56:12+08:00 ] 115.230.124.164 /cgi-bin/common/attr?id=260714&r=0.2993118368839324
+ERR: 无法加载模块:Cgi-bin
+

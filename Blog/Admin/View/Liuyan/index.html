@@ -1,0 +1,68 @@
+<include file="Public/top"/>
+<include file="Public/left"/>
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="__MODULE__/Index/index">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">留言管理</span></div>
+        </div>
+        <div class="result-wrap">
+            <form name="myform" id="myform" method="post">
+                <div class="result-title">
+                    <div class="result-list">
+                查看留言★
+                   <a id="batchDel" href="javascript:void(0)"><i class="icon-font"></i>批量删除</a>
+                    </div>
+                </div>
+                <div class="result-content">
+                    <table class="result-tab" width="100%">                 
+                        <tr>
+                            <th class="tc" width="5%"><input class="allChoose" name="" type="checkbox"></th>
+                            <th>ID</th>
+                            <th>留言内容</th>
+                            <th>留言IP</th>
+                            <th>留言时间</th>
+                            <th>操作</th>
+                        </tr>
+                        <volist name="list" id="vo">
+                        <tr id="vid">
+                       <td class="tc"><input name="id[]" value="{$vo.id}" type="checkbox"></td>
+                            <td>{$vo.id}</td>
+                            <td>{$vo.content|strip_tags|msubstr=###,0,15,'utf-8',false}</td>
+                             <td>{$vo.ip}</td>
+                            <td>{$vo.ctime|date = "Y-m-d H:i:s",###}</td>
+                            <td>
+                                <a class="link-del" href="__MODULE__/Liuyan/del/id/{$vo.id}">删除</a>
+                            </td>
+                        </tr>
+                        </volist>
+                    </table>
+                     {$page}
+                </div>
+            </form>
+        </div>
+        <include file="Public/footer"/>
+    </div>
+    <!--/main-->
+</div>
+</body>
+<script type="text/javascript">
+    $(".allChoose").click(function(){
+    var isChecked = $(this).prop("checked");
+    $("input[name='id[]']").prop("checked", isChecked);
+});
+    $("#batchDel").click(function(){
+        var arrdata = [];
+
+        var url="__MODULE__/Liuyan/deall";
+        $.each($("#vid input:checked"),function(i,n){
+            arrdata[i] = n.value;
+        });
+        $.post(url, {"arr":arrdata},
+            function(data){
+                alert(data);
+                location.href="__MODULE__/Liuyan/index";
+             });
+    });
+</script>
+</html>

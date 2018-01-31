@@ -1,0 +1,2511 @@
+[ 2016-04-13T10:40:59+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0110s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0000s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-13T10:42:00+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0000s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T10:43:00+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0010s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:31:12+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0010s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:31:22+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0000s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2016-04-13T11:31:47+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0010s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2016-04-13T11:32:27+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-04-13T11:32:37+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-13T11:32:46+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0000s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2016-04-13T11:32:55+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0000s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2016-04-13T11:34:48+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0000s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: shi D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:35:16+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0000s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:35:57+08:00 ] ::1 /SIRzhouHome/index.php/Home/Bowen/show/id/27/user/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 26 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 28 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.037002s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.037002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.144008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-13T11:35:57+08:00 ] ::1 /SIRzhouHome/index.php/Home/Bowen/show/id/27/user/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 26 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 28 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:38:20+08:00 ] ::1 /SIRzhouHome/index.php/Home/Bowen/show/id/27/user/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 26 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 28 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:38:20+08:00 ] ::1 /SIRzhouHome/index.php/Home/Bowen/show/id/27/user/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 26 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 28 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:38:27+08:00 ] ::1 /SIRzhouHome/index.php/Home/Bowen/show/id/26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: user D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 24 行.
+SQL: SELECT * FROM `blog_article` WHERE ( id = 26 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 25 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-13T11:38:27+08:00 ] ::1 /SIRzhouHome/index.php/Home/Bowen/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: user D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 24 行.
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:38:28+08:00 ] ::1 /SIRzhouHome/index.php/Home/Bowen/show/id/27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: user D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 24 行.
+SQL: SELECT * FROM `blog_article` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 26 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 28 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:38:28+08:00 ] ::1 /SIRzhouHome/index.php/Home/Bowen/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: user D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 24 行.
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:38:29+08:00 ] ::1 /SIRzhouHome/index.php/Home/Bowen/show/id/26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: user D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 24 行.
+SQL: SELECT * FROM `blog_article` WHERE ( id = 26 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 25 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:38:29+08:00 ] ::1 /SIRzhouHome/index.php/Home/Bowen/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: user D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 24 行.
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:41:42+08:00 ] ::1 /SIRzhouHome/index.php/Home/Bowen/show/id/27/user/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 26 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 28 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:41:42+08:00 ] ::1 /SIRzhouHome/index.php/Home/Bowen/show/id/27/user/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 26 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 28 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:42:53+08:00 ] ::1 /SIRzhouHome/index.php/Home/Bowen/show/id/27/user/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 26 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 28 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:42:53+08:00 ] ::1 /SIRzhouHome/index.php/Home/Bowen/show/id/27/user/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 26 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 28 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-04-13T11:48:53+08:00 ] ::1 /SIRzhouHome/index.php/Home/Bowen/show/id/36/user/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 36 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 35 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 37 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-13T11:48:53+08:00 ] ::1 /SIRzhouHome/index.php/Home/Bowen/show/id/36/user/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\BowenController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\BowenController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 36 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 35 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id = 37 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-04-13T11:49:31+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0020s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-04-13T11:49:58+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0010s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:50:02+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 21 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 22 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 38 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:50:02+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0110s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:50:15+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 21 ) LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 38 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 40 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 41 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-13T11:50:15+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0070s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:50:25+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 38 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 40 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 41 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:50:25+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0110s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:51:17+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 38 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 40 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 41 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-13T11:51:17+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0070s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:51:19+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 38 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 40 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 41 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-13T11:51:19+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:51:22+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 38 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 40 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 41 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:51:22+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0100s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:53:07+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 21 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 38 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 40 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 41 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:53:07+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0210s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:53:44+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-13T11:54:18+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-13T11:56:18+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 21 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:56:19+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:56:22+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:56:22+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:56:23+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 21 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-13T11:56:24+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:56:29+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 21 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 22 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:56:29+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:56:31+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 21 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-13T11:56:31+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0100s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:56:38+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:56:38+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:56:40+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:56:40+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0100s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:56:43+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-13T11:56:43+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0110s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:57:24+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-13T11:57:24+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0110s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:57:28+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 15 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:57:28+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:57:29+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-13T11:57:29+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:57:29+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 15 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-13T11:57:29+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:57:31+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:57:31+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:57:49+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:57:50+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:57:52+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0000s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:57:54+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 21 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-13T11:57:54+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0100s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:57:58+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:57:58+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0070s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:58:13+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-13T11:58:13+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0100s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:58:16+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-13T11:58:16+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0110s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:58:17+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-13T11:58:17+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:58:17+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-13T11:58:17+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:59:22+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:59:22+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:59:25+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:59:25+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:59:27+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 15 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:59:27+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:59:28+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 15 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-13T11:59:28+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0070s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:59:28+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 15 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-13T11:59:29+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0120s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:59:29+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 14 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-13T11:59:29+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:59:30+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:59:30+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0050s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:59:32+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-13T11:59:32+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:59:43+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-13T11:59:43+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:59:51+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:59:51+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0190s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:59:54+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T11:59:54+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0100s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T11:59:55+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 20 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-13T11:59:55+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0140s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T12:19:16+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0310s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-13T12:19:20+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0010s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-13T12:19:37+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0010s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-04-13T12:19:40+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 68 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 67 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 69 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: edittime D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-13T12:19:40+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0100s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+
+[ 2016-04-13T12:21:15+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 69 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 68 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `blog_shijuhua` WHERE ( id = 70 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: name D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\eb2e2e8d6fb1543584decdd1f54cac99.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-13T12:21:15+08:00 ] ::1 /SIRzhouHome/index.php/Home/Shijuhua/show/id/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShijuhuaController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\SIRzhouHome\Blog\Home\Controller\ShijuhuaController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0100s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_shijuhua` WHERE ( id = js ) LIMIT 1  
+

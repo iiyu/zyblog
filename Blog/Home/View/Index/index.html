@@ -1,0 +1,92 @@
+<include file="Public/top"/>
+<!--end header-->
+<div class="banner">
+  <section class="box">
+    <ul class="texts">
+      <p class="p1">Intelligence without ambition is a bird without wings.</p>
+      <p class="p2">无志之人，如无翼之鸟</p>
+      <p class="p3">By:自己</p>
+    </ul>
+  </section>
+</div>
+<!--end banner-->
+<article>
+  <h2 class="title_tj">
+    <p>博主<span>推荐</span></p>
+  </h2>
+  <div class="bloglist left">
+   <!--wz-->
+   <foreach name="listn" item="vo">
+    <div class="wz">
+    <h3><a href="__MODULE__/Bowen/show/id/{$vo.id}/user/{$vo.username}" target="_blank" class="readone">{$vo.title}</a></h3>
+    <p class="dateview"><span>{$vo.edittime|date="Y-m-d",###}</span><span>作者：{$vo.username}</span><span>分类：[<a href="__MODULE__/Bowen/showfen/fid/{$vo.fid}">{$vo.name}</a>]</span><span>阅读 {$vo.view}</span></p>
+    <figure><img src="__PUBLIC__/Uploads/{$vo.pic}"></figure>
+    <ul>
+      <p>{$vo.content|strip_tags|msubstr=###,0,150,'utf-8',true}</p>
+      <a title="阅读全文" href="__MODULE__/Bowen/show/id/{$vo.id}/user/{$vo.username}" target="_blank" class="readmore">阅读全文>></a>
+    </ul>
+    <div class="clear"></div>
+    </div>
+    </foreach>
+   <!--end-->   
+  </div>
+  <!--right-->
+  <aside class="right"> 
+    <div class="my">
+     <a href="__MODULE__/Index/about"><h2>关于<span>博主</span></h2></a>
+     <img src="__PUBLIC__/Home/images/my.jpg" width="200" height="200" alt="博主">
+       <ul>
+        <li>博主：老年</li>
+        <li>职业:web前后端、网站运营。。。</li>
+        <li>简介：一个有气无力的老翁，在南阳理工里念经.快出院了。</li>
+        <li></li>   
+       </ul>
+    </div>
+    <div class="news">
+    <h3 class="ph">
+      <p>点击<span>排行</span></p>
+    </h3>
+    <ul class="paih">
+      <foreach name="list" item="vol">
+      <li><a href="__MODULE__/Bowen/show/id/{$vol.id}/user/{$vol.username}" title="{$vol.title}" target="_blank">{$vol.title|msubstr=###,0,18,'utf-8',true}</a></li>
+      </foreach>
+    </ul>
+    <h3>
+      <p>10句<span>句</span></p>
+    </h3>
+    <ul class="rank">
+      <foreach name="shi" item="vos">
+      <li><a href="__MODULE__/Shijuhua/show/id/{$vos.id}" title="{$vos.title}" target="_blank">{$vos.content|msubstr=###,0,18,'utf-8',true}</a></li>
+      </foreach>
+    </ul>
+   <div id="link">
+              <p>友情链接:</p>
+                <div id="link_text">
+                    <ul>
+                    <foreach name="linl" item="vol">
+                        <li><a href="{$vol.url}" target="_blank" title="{$vo.title}">{$vol.title}</a></li>
+                    </foreach>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+          </div>
+    </div> 
+</article>
+<footer>
+  <p><span>Design By:<a href="http://www.sirzhou.cn" target="_blank">周</a></span><span>网站地图</span><span><a href="/">网站统计</a></span>
+  <span>微信表白墙:<a href="http://www.sirzhou.cn/weixin/w/" target="_blank" class="thumbnail">在这里<span><img src="__PUBLIC__/Home/images/2weima.png" width="250px" /></span></a></span>
+  </p>
+<!--   <div id="wrap">
+  <div class="inside">
+    <audio class="projekktor speakker dark" autoplay="autoplay">
+      <source src="__PUBLIC__/HTML5/js/playlist.js" type="application/json"/>
+    </audio>
+  </div>
+</div>
+<script type="text/javascript" src="__PUBLIC__/HTML5/junk/noise.js"></script> -->
+</footer>
+<script src="__PUBLIC__/Home/js/nav.js"></script>
+<!--百度分享-->
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"32"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+</body>
+</html>

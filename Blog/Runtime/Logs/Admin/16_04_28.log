@@ -1,0 +1,25 @@
+[ 2016-04-28T10:00:02+08:00 ] 115.159.214.239 /Admin/Work/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined offset: 0 /yjdata/www/thinkphp/Blog/Admin/Util/Vquery.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 0 /yjdata/www/thinkphp/Blog/Admin/Util/Vquery.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 0 /yjdata/www/thinkphp/Blog/Admin/Util/Vquery.class.php 第 51 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("无论走到哪里，都应该记住过去都是假的，回忆是一条没有尽头的路，一切以往的春天都不复在，就连那最坚韧而又狂乱的爱情归根结底也不过是一种转瞬即逝的现实，唯有孤独永恒。",1461808802,"http://t2.qpic.cn/mblogpic/4a012d04cf5567ecf1ca/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("胖子好像做什么都不对??胖子去游泳，人会说这么胖还敢穿泳衣。胖子去吃饭，人会说这么胖还吃。胖子去买口红，人会说这么胖还擦什么口红。胖子去相亲，这么胖相什么亲，谁要啊？于是胖子待在家那也不去，人又会说，活该这么胖动都不动！！胖子怎么了没吃你家米没占你家地！不许针对胖子！",1461808802,"http://t2.qpic.cn/mblogpic/0e2a00d4ed3996d0bb6a/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("总有一天你要放下痛苦，告别过去，也会向所有的不懂得低头。生活就是这样，成长之于我们的第一步就是要和这个并不怎么温柔的世界握手言和。",1461808802,"http://t1.qpic.cn/mblogpic/42f6994bb43a8974cfae/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("一个人生忠告：剪头发的时候千万别闭眼，因为当你睁开眼睛的时候很可能就不想活了。",1461808802,"http://t1.qpic.cn/mblogpic/05cd66ffd63f6bddf18e/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("其实不是每天都那么high，嬉皮笑脸没心没肺。而是悲悯别人的经历与故事所以选择分享快乐，善待这个世界。眼界与逻辑多源于阅读与远途，这世界绝不是你表现越单纯的人越善良，而是历经风雨之后的看开和同情。越悲怆的时候我就越想嬉皮。",1461808802,"http://t2.qpic.cn/mblogpic/0e2a00d4ed3996d0bb6a/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("你必须培养一些爱好，不要空洞遥远的目标而是实在甚至庸俗的吃喝拉撒。必须一觉醒来很清楚至少今天还能干什么。去楼下最辣的粉店吃早饭，去给窗台上的盆栽浇水，去追一集刚更新的新番，去找一个知心老友唠嗑。你必须积攒这种微小的期待和快乐，这样才不会被遥不可及的梦和无法掌控的爱给拖垮。",1461808802,"http://t2.qpic.cn/mblogpic/07632737619664c605ba/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("发现了没，作和撒娇其实没什么本质区别，具体来说，情商高的女人耍起来就叫撒娇，情商低的女人耍起来就叫做。长得好看的女人耍起来就叫撒娇，长得丑的女人耍起来就叫作。",1461808802,"http://t1.qpic.cn/mblogpic/42f6994bb43a8974cfae/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("总觉得最好的生活状态应该是自然而然的，想读书的时候就安静的坐在角落里，遇到喜欢的人就去表白，喜欢什么样的生活方式就去实践，而不是迫于无奈和外界的压力去选择和接受，又或者出于无聊和空虚而随意的填补。",1461808802,"http://t2.qpic.cn/mblogpic/31890cbc1a726aab88d6/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("世纪最没用的三个东西：背背佳、点读机、网络课程",1461808802,"http://t2.qpic.cn/mblogpic/c81fe67ba88e41b8d19a/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("情绪是什么呢？
+大概就是兜兜转转又再度和喜欢的人碰面时，会感叹一切冥冥之中自有注定，你我山高水长终要相遇。而换做讨厌的人呢----“呸！圈子真他妈小！算我倒霉！”",1461808802,"http://t1.qpic.cn/mblogpic/654350e1595e062feec2/460") [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+

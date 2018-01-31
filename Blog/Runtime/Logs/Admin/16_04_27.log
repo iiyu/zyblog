@@ -1,0 +1,26 @@
+[ 2016-04-27T10:00:02+08:00 ] 115.159.214.239 /Admin/Work/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002478s ]
+NOTIC: [8] Undefined offset: 0 /yjdata/www/thinkphp/Blog/Admin/Util/Vquery.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 0 /yjdata/www/thinkphp/Blog/Admin/Util/Vquery.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 0 /yjdata/www/thinkphp/Blog/Admin/Util/Vquery.class.php 第 51 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("“有思想的人，在哪里都不会太合群”，这句话强调的是有思想的人，懂得独立思考，不人云亦云，更不阿谀奉承，趋炎附势，而不是把自己的无知、任性、自大当做不合群的借口。千万别搞错了！",1461722402,"http://t2.qpic.cn/mblogpic/6b04965ce549047b61c2/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("今天听过最傻最心疼的一句话 “他伤了你那么多次你怎么还没离开？” “偶尔他也会给我敷药，喂我吃糖”。",1461722402,"http://t2.qpic.cn/mblogpic/de0ee421975a40dfb34a/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("先别急着爱我，如果你愿意， 
+先来尝尝我的怪脾气和自私任性口是心非过后， 
+若你还爱我，那我的世界就只有你。",1461722402,"http://t2.qpic.cn/mblogpic/8558631beb773a30f3bc/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("你过得太闲，才有时间执着在无意义的事情上，才有时间无病呻吟所谓痛苦。你看那些忙碌的人，他们的时间都花在努力上。",1461722402,"http://t2.qpic.cn/mblogpic/7a075b0f0d1807e81088/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("人应该拿出一些精力来做自己喜欢的事情，也许有人会觉得做这样的事情一点用也没有，既不能获得赞誉也不能换成金钱。可是生活的丰盈度和愉悦感有时候就是靠这些事情来支撑的啊。就像有些人所说的那样，我们应该去读一些没用的书，做一些无用的事，来感受生活的乐趣。",1461722402,"http://t2.qpic.cn/mblogpic/8558631beb773a30f3bc/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("归根结底，是我想多了。而下次，或许我还是会多想，因为我是有血有肉的人，我还是会期待，期待落空的时候，只不过是不再大哭了，而是能淡淡地说一句，哦，这样而已啊。",1461722402,"http://t1.qpic.cn/mblogpic/896decaa43ccdd634e50/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("读书多了，容颜自然改变，许多时候，自己可能以为许多看过的书籍都成过眼烟云，不复记忆，其实它们仍是潜在的，在气质里、在谈吐上、在胸襟的无涯，当然也可能显露在生活和文字中。",1461722402,"http://t2.qpic.cn/mblogpic/e5c1874365af311cc674/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("男女情感破裂的主要原因是：总有红颜为傻逼，可是傻逼不珍惜。总有傻逼为红颜，可惜红颜只要钱。",1461722402,"http://t1.qpic.cn/mblogpic/802b8967dc276efca0c0/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("不要和腿太细的男孩子玩，男孩子腿比女孩子粗是对女孩子最起码的尊重！",1461722402,"http://t2.qpic.cn/mblogpic/98407527b8fefe40b336/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("最傻逼的事情之一，就是经常回头看看和前任的聊天记录，然后影响心情。",1461722402,"http://t2.qpic.cn/mblogpic/ed4b7c479e31f2949b40/460") [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+

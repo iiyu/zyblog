@@ -1,0 +1,47 @@
+<include file="Public/top"/>
+<include file="Public/left"/>
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="__MODULE__/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="__MODULE__/Fenlei/index">分类管理</a><span class="crumb-step">&gt;</span><span>新增分类</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="__MODULE__/Fenlei/doadd" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody><tr>
+                            <th width="120"><i class="require-red">*</i>上级分类：</th>
+                            <td>
+                                <select name="pid" id="catid" class="required">
+                                    <option value="0">上级分类</option>
+                                    <volist name="alist" id="vo">                               
+                                    <option value="{$vo.id}">{:str_repeat("-",$vo['count']-2)}{$vo.name}
+                                    </option>
+                                    </volist>
+                                </select>
+                            </td>
+                        </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>分类名称：</th>
+                                <td>
+                                    <input class="common-text required" id="title" name="name" size="50" value="" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+<include file="Public/footer"/>
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>

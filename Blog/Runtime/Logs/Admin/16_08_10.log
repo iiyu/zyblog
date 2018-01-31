@@ -1,0 +1,26 @@
+[ 2016-08-10T09:33:41+08:00 ] 127.0.0.1 /SIRzhouHome/index.php/admin/work/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\SIRzhouHome\Blog\Admin\Util\Vquery.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\SIRzhouHome\Blog\Admin\Util\Vquery.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\SIRzhouHome\Blog\Admin\Util\Vquery.class.php 第 51 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("2016年已经过半，想想年初定的目标是攒5万块，仔细算了算，现在距离目标还差七万多块。",1470792819,"http://t1.qpic.cn/mblogpic/2f72c7b6c86a914bb014/460") [ RunTime:0.0395s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("每当你打算开始存钱，总有个声音对你说：“对自己好点”",1470792821,"http://t1.qpic.cn/mblogpic/39f0944c6de5c998eed8/460") [ RunTime:0.0003s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("我没想过要变得多强大，我只希望自己成为那种姑娘，不管经历过多少不平，有过多少伤痛，都舒展着眉头过日子，内心丰盛安宁，性格澄澈豁达。偶尔矫情却不矫揉造作，毒舌却不尖酸刻薄，不怨天尤人，不苦大仇深。对每个人真诚，对每件事热忱，相信这世上的一切都会慢慢好起来。",1470792821,"http://t1.qpic.cn/mblogpic/9f37dfdc1bbd8f783d2c/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("我想大家都有过这种尴尬，有人时候突然想放屁，而且可以预测到这是一只大响屁，又憋不住。这时候我来传授一个生活小秘诀，一边把别人的目光和注意力转移到别处，一边迅速将手伸进内裤（自己的）以菊花为中心，用手指将菊花任意一侧的皮肤按下去，并放松自己。于是你就可以得到一个无声的屁了不用谢。",1470792821,"http://t1.qpic.cn/mblogpic/202abca38f4360d6e8d0/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("我们人类是个整体脆弱的物种，非常害怕受到打击，因此发明了很多自我安慰的话，比如吃亏是福，缺陷是美等等，最多的是关于失败的描述，失败是成长，失败是学习，失败是成功之母。其实呢？大多数时候失败就是失败，失败是挫折和痛苦，你只是失去了什么，并没有得到什么。恕我直言，其实这样也挺好。",1470792821,"http://t1.qpic.cn/mblogpic/2f72c7b6c86a914bb014/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("想旅游！但是穷！又没有假期！发明了一种新玩法！云旅游！就是你们发好玩的好吃的好看的照片我看着，看完洗洗睡了就行，再逼真点就是把照片传到电视上我戴个3D眼镜看，这是VR云旅游！省钱！",1470792821,"http://t1.qpic.cn/mblogpic/a9b6b1ed461a32e2c1ee/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("刚刚等公交车的时候 站边有一个小小正太和他哥小正太也在等 弟弟问哥哥 要是没有公交车了怎么办 哥哥一手拿着雨伞一手牵着弟弟说 没有车了 就把你卖掉 过了好一会儿 哥哥低头亲了亲弟弟的脸 小声的说了一句 哥哥爱你",1470792821,"http://t1.qpic.cn/mblogpic/5602cd6f462b10c5c82a/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("想约玩手机局，有话聊就聊，没话聊大家玩手机。不用在乎尴尬，就在咖啡馆和酒吧聊两句，然后葛优瘫，玩手机，世界一片和谐。",1470792821,"http://t1.qpic.cn/mblogpic/a9b6b1ed461a32e2c1ee/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("真是觉得，崇拜一个人，要想将崇拜的感觉保持得长久些，还是要远离他的私生活。",1470792821,"http://t1.qpic.cn/mblogpic/9f37dfdc1bbd8f783d2c/460") [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 9 D:\phpStudy\WWW\SIRzhouHome\Blog\Admin\Controller\WorkController.class.php 第 14 行.
+NOTIC: [8] Undefined offset: 9 D:\phpStudy\WWW\SIRzhouHome\Blog\Admin\Controller\WorkController.class.php 第 14 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("",1470792821,"") [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015557s ]
+

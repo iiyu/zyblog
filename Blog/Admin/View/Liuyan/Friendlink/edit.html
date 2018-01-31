@@ -1,0 +1,46 @@
+<include file="Public/top"/>
+<include file="Public/left"/>
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="__MODULE__/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="__MODULE__/Article/index">博文管理</a><span class="crumb-step">&gt;</span><span>新增博文</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="__MODULE__/Friendlink/doedit" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                            <tr>
+                                <th><i class="require-red">*</i>友链标题：</th>
+                                <td>
+                                    <input class="common-text required" id="title" name="title" size="50" value="{$res.title}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>友链描述</th>
+                                <td><textarea name="content" class="common-textarea" id="content" cols="30" style="width: 70%;" rows="7">{$res.content}</textarea></td>
+                            </tr>
+                            <tr>
+                                <th>友链链接(前面加上http://)：</th>
+                                <td><input class="common-text" name="url" size="50" value="{$res.url}" type="text"></td>
+                            </tr>
+                            <tr>
+                            <input type="hidden" name="id" value="{$res.id}">
+                                <td colspan="2" style="text-align:center">
+                                    <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody>
+                        </table>
+                </form>
+            </div>
+        </div>
+<!-- 调用脚部文件 -->
+<include file="Public/footer"/>
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>

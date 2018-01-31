@@ -1,0 +1,49 @@
+<include file="Public/top"/>
+<include file="Public/left"/>
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="__MODULE__/Index/index">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">分类管理</span></div>
+        </div>
+        <div class="result-wrap">
+            <form name="myform" id="myform" method="post">
+                <div class="result-title">
+                    <div class="result-list">
+                        <a href="__MODULE__/Fenlei/add"><i class="icon-font"></i>新增分类</a>
+                    </div>
+                </div>
+                <div class="result-content">
+                    <table class="result-tab" width="100%">                 
+                        <tr>
+                            <th class="tc" width="5%"><input class="allChoose" name="" type="checkbox"></th>
+                            <th>ID</th>
+                            <th>分类名称</th>
+                            <th>操作</th>
+                        </tr>
+                        <volist name="alist" id="vo">
+                       {:str_repeat("　",$vo['count']-2)}
+                        <tr>
+                       <td class="tc"><input name="id[]" value="{$vo.id}" type="checkbox"></td>
+                            <td>{$vo.id}</td>
+                            <td ><a href="#">
+                            <if>
+                            {:str_repeat("∟",$vo['count']-2)}{$vo.name}</a>
+                            </td>
+                            <td>
+                                <a class="link-update" href="__MODULE__/Fenlei/edit/id/{$vo.id}">修改</a>
+                                <a class="link-del" href="__MODULE__/Fenlei/del/id/{$vo.id}">删除</a>
+                            </td>
+                        </tr>
+                        </volist>
+                    </table>
+                    <div class="list-page"> 2 条 1/1 页</div>
+                </div>
+            </form>
+        </div>
+        <include file="Public/footer"/>
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>

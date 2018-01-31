@@ -1,0 +1,137 @@
+[ 2016-04-14T12:21:58+08:00 ] ::1 /SIRzhouHome/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: username D:\WWW\SIRzhouHome\Blog\Admin\Controller\CommonController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-14T12:22:01+08:00 ] ::1 /SIRzhouHome/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-14T12:22:02+08:00 ] ::1 /SIRzhouHome/index.php/Admin/Login/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-04-14T12:22:10+08:00 ] ::1 /SIRzhouHome/index.php/Admin/work/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\SIRzhouHome\Blog\Admin\Util\Vquery.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\SIRzhouHome\Blog\Admin\Util\Vquery.class.php 第 51 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("",1460607730,"http://t2.qpic.cn/mblogpic/097a6f183543c930fdac/460") [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\SIRzhouHome\Blog\Admin\Controller\WorkController.class.php 第 14 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("",1460607730,"http://t1.qpic.cn/mblogpic/ba458ef4a86451ccf074/460") [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 2 D:\WWW\SIRzhouHome\Blog\Admin\Controller\WorkController.class.php 第 14 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("",1460607730,"http://t1.qpic.cn/mblogpic/d8282c695a0341b0def4/460") [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 3 D:\WWW\SIRzhouHome\Blog\Admin\Controller\WorkController.class.php 第 14 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("",1460607730,"http://t2.qpic.cn/mblogpic/92a69d2a938e316b80d6/460") [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 4 D:\WWW\SIRzhouHome\Blog\Admin\Controller\WorkController.class.php 第 14 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("",1460607730,"http://t2.qpic.cn/mblogpic/5cdec07bfc2cf0d9ac08/460") [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 5 D:\WWW\SIRzhouHome\Blog\Admin\Controller\WorkController.class.php 第 14 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("",1460607730,"http://t1.qpic.cn/mblogpic/ba458ef4a86451ccf074/460") [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 6 D:\WWW\SIRzhouHome\Blog\Admin\Controller\WorkController.class.php 第 14 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("",1460607730,"http://t2.qpic.cn/mblogpic/e554540926aab4586d10/460") [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 7 D:\WWW\SIRzhouHome\Blog\Admin\Controller\WorkController.class.php 第 14 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("",1460607730,"http://t2.qpic.cn/mblogpic/85da47a1a358dc6b1c84/460") [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 8 D:\WWW\SIRzhouHome\Blog\Admin\Controller\WorkController.class.php 第 14 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("",1460607730,"http://t2.qpic.cn/mblogpic/8d4cec7001e484b5478c/460") [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 9 D:\WWW\SIRzhouHome\Blog\Admin\Controller\WorkController.class.php 第 14 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("",1460607730,"http://t1.qpic.cn/mblogpic/5ce03b26d427b107e504/460") [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-04-14T12:23:11+08:00 ] ::1 /SIRzhouHome/index.php/Admin/work/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\SIRzhouHome\Blog\Admin\Util\Vquery.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\SIRzhouHome\Blog\Admin\Util\Vquery.class.php 第 51 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("",1460607791,"http://t2.qpic.cn/mblogpic/097a6f183543c930fdac/460") [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\SIRzhouHome\Blog\Admin\Controller\WorkController.class.php 第 14 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("",1460607791,"http://t1.qpic.cn/mblogpic/ba458ef4a86451ccf074/460") [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 2 D:\WWW\SIRzhouHome\Blog\Admin\Controller\WorkController.class.php 第 14 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("",1460607791,"http://t1.qpic.cn/mblogpic/d8282c695a0341b0def4/460") [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 3 D:\WWW\SIRzhouHome\Blog\Admin\Controller\WorkController.class.php 第 14 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("",1460607791,"http://t2.qpic.cn/mblogpic/92a69d2a938e316b80d6/460") [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 4 D:\WWW\SIRzhouHome\Blog\Admin\Controller\WorkController.class.php 第 14 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("",1460607791,"http://t2.qpic.cn/mblogpic/5cdec07bfc2cf0d9ac08/460") [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 5 D:\WWW\SIRzhouHome\Blog\Admin\Controller\WorkController.class.php 第 14 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("",1460607791,"http://t1.qpic.cn/mblogpic/ba458ef4a86451ccf074/460") [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 6 D:\WWW\SIRzhouHome\Blog\Admin\Controller\WorkController.class.php 第 14 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("",1460607791,"http://t2.qpic.cn/mblogpic/e554540926aab4586d10/460") [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 7 D:\WWW\SIRzhouHome\Blog\Admin\Controller\WorkController.class.php 第 14 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("",1460607791,"http://t2.qpic.cn/mblogpic/85da47a1a358dc6b1c84/460") [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 8 D:\WWW\SIRzhouHome\Blog\Admin\Controller\WorkController.class.php 第 14 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("",1460607791,"http://t2.qpic.cn/mblogpic/8d4cec7001e484b5478c/460") [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 9 D:\WWW\SIRzhouHome\Blog\Admin\Controller\WorkController.class.php 第 14 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("",1460607791,"http://t1.qpic.cn/mblogpic/5ce03b26d427b107e504/460") [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-14T12:24:54+08:00 ] ::1 /SIRzhouHome/index.php/Admin/work/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\SIRzhouHome\Blog\Admin\Util\Vquery.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\SIRzhouHome\Blog\Admin\Util\Vquery.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\SIRzhouHome\Blog\Admin\Util\Vquery.class.php 第 51 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("和一个人在一起 ，如果他给你的能量是让你每天都能高兴得起床，每夜都能安心得入睡 ，做每一件事都充满了动力 ，对未来满怀期待 ，那你就没有爱错人 ，最合适的感情 ，永远都不是以爱的名义互相折磨 ，而是彼此陪伴 ，成为对方的阳光。",1460607894,"http://t2.qpic.cn/mblogpic/097a6f183543c930fdac/460") [ RunTime:0.0000s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("当你走在悬崖的边界，崩溃的边缘，你要用最后一口气撑下去，直到走到柳暗花明，而不是用最后一口气走回头路。一旦回头你过去受的所有的苦都会白费。",1460607894,"http://t1.qpic.cn/mblogpic/ba458ef4a86451ccf074/460") [ RunTime:0.0000s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("怀念不一定就要相见，喜欢不一定就要在一起，你要相信，每一种距离都有它存在的意义。",1460607894,"http://t1.qpic.cn/mblogpic/d8282c695a0341b0def4/460") [ RunTime:0.0000s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("你要坚信，你一直是这个世上独一无二的存在，就算现在还没有遇到真爱的人，但在未来，总会有那么一个人出现，知你冷暖，懂你悲欢，爱你如生命。",1460607894,"http://t2.qpic.cn/mblogpic/92a69d2a938e316b80d6/460") [ RunTime:0.0000s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("你别怕，总有人熬夜陪你，下雨接你，说我爱你，好的总是压箱底，遇到了记得要珍惜。",1460607894,"http://t2.qpic.cn/mblogpic/5cdec07bfc2cf0d9ac08/460") [ RunTime:0.0000s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("任何年龄段的女人都有她在那个年龄阶段所呈现出来的无法复刻的美。 她因年龄而减损的，又因性格而弥补回来，更因勤劳赢得了更多。",1460607894,"http://t1.qpic.cn/mblogpic/ba458ef4a86451ccf074/460") [ RunTime:0.0000s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("身在让人迷茫的大学，告诉自己：像个人一样活着吧，正经地学点东西吧，要慎重的做出选择呀，保持清醒的头脑吧。你的行为并不是只牵动着你一个人，即使年轻，也一定要勇敢的承担起责任。",1460607894,"http://t2.qpic.cn/mblogpic/e554540926aab4586d10/460") [ RunTime:0.0000s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("很多人没结婚，不是因为觉得婚姻不重要，而是 婚姻很重要。",1460607894,"http://t2.qpic.cn/mblogpic/85da47a1a358dc6b1c84/460") [ RunTime:0.0000s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("孤独大概就是周围人声鼎沸，自己一直一个人做自己的事，一个人穿过人群，觉得世界真的是一个巨大的牢笼啊。",1460607894,"http://t2.qpic.cn/mblogpic/8d4cec7001e484b5478c/460") [ RunTime:0.0000s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("我读书为的就是不遇到我不想遇到的人。",1460607894,"http://t1.qpic.cn/mblogpic/5ce03b26d427b107e504/460") [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

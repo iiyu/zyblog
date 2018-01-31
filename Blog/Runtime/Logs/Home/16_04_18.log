@@ -1,0 +1,520 @@
+[ 2016-04-18T17:02:14+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0818s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0099s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0284s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0526s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.015842s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015909s ]
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.157193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011933s ]
+
+[ 2016-04-18T17:05:02+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0003s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2016-04-18T17:09:01+08:00 ] ::1 /SIRzhouHome/index.php/Home/Index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2016-04-18T17:09:01+08:00 ] ::1 /SIRzhouHome/index.php/Home/Index/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+ERR: 非法操作:js
+
+[ 2016-04-18T17:09:41+08:00 ] ::1 /SIRzhouHome/index.php/Home/Index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-04-18T17:09:41+08:00 ] ::1 /SIRzhouHome/index.php/Home/Index/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+ERR: 非法操作:js
+
+[ 2016-04-18T17:09:42+08:00 ] ::1 /SIRzhouHome/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0004s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001750s ]
+
+[ 2016-04-18T17:09:44+08:00 ] ::1 /SIRzhouHome/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000186s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0004s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000343s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001723s ]
+
+[ 2016-04-18T17:09:49+08:00 ] ::1 /SIRzhouHome/index.php/Home/Index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2016-04-18T17:09:50+08:00 ] ::1 /SIRzhouHome/index.php/Home/Index/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+ERR: 非法操作:js
+
+[ 2016-04-18T17:09:57+08:00 ] ::1 /SIRzhouHome/index.php/Home/Index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2016-04-18T17:09:57+08:00 ] ::1 /SIRzhouHome/index.php/Home/Index/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+ERR: 非法操作:js
+
+[ 2016-04-18T17:09:58+08:00 ] ::1 /SIRzhouHome/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0004s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2016-04-18T18:06:47+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0100s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0189s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0111s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000427s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000501s ]
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.193278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.193326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025107s ]
+
+[ 2016-04-18T18:26:36+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0263s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2016-04-18T18:26:55+08:00 ] ::1 /SIRzhouHome/index.php/Home/Index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002441s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2016-04-18T18:26:55+08:00 ] ::1 /SIRzhouHome/index.php/Home/Index/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+ERR: 非法操作:js
+
+[ 2016-04-18T18:27:08+08:00 ] ::1 /SIRzhouHome/index.php/Home/Index/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2016-04-18T18:27:08+08:00 ] ::1 /SIRzhouHome/index.php/Home/Index/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+ERR: 非法操作:js
+
+[ 2016-04-18T18:27:13+08:00 ] ::1 /SIRzhouHome/index.php/Home/Riji/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `blog_diary` [ RunTime:0.0504s ]
+SQL: SELECT * FROM `blog_diary` ORDER BY ctime desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002007s ]
+
+[ 2016-04-18T21:13:29+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.1063s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0251s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0911s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.008987s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.009063s ]
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.025380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.081985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.082074s ]
+
+[ 2016-04-18T21:41:18+08:00 ] ::1 /SIRzhouHome/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `blog_friendlink` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `blog_friendlink` ORDER BY ctime LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by view desc limit 0,5 [ RunTime:0.0241s ]
+SQL: select a.*,b.username,c.name from blog_article as a, blog_admin as b,blog_fenlei as c where a.uid=b.id and a.status=0 and c.id=a.pid order by edittime desc limit 0,5 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_shijuhua` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `blog_shijuhua` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+NOTIC: [8] Undefined index: title D:\WWW\SIRzhouHome\Blog\Runtime\Cache\Home\a67186ba50fdb030aaa95e12cc1b51b5.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+

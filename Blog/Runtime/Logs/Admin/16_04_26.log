@@ -1,0 +1,39 @@
+[ 2016-04-26T10:00:02+08:00 ] 115.159.214.239 /Admin/Work/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Undefined offset: 0 /yjdata/www/thinkphp/Blog/Admin/Util/Vquery.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 0 /yjdata/www/thinkphp/Blog/Admin/Util/Vquery.class.php 第 51 行.
+NOTIC: [8] Undefined offset: 0 /yjdata/www/thinkphp/Blog/Admin/Util/Vquery.class.php 第 51 行.
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("爱情和面包从来都不是对立面。
+
+甚至可以说，面包无法决定两个人能不能相爱，但在很大程度上却能够决定两个人最后能不能在一起。
+
+任何一份好的关系，都应该是情感和物质的合体。
+
+在感情中追求物质，在物质中深化感情，这才是两个人应该长长久久为之奋斗的目标。
+
+因为物质去投身一场恋爱太过不值，但是在一份爱情里完全抛却物质的身影却也傻的可怜。这世上最美好的爱情不过是，我们互相喂食面包，也能互相为爱情打气。
+
+钱在我眼里，你在我心里。
+
+有何不可。",1461636002,"http://t2.qpic.cn/mblogpic/7bd878a37e168243a984/460") [ RunTime:0.0268s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("所谓的爱情就是
+不吵架时候可以为他去死
+吵架的时候感觉该死的是他
+吵完架的时候就想，妈呀，他死了我也不活了",1461636002,"http://t1.qpic.cn/mblogpic/bf1b5a0294610807e30e/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("我从不欣赏那些在感情中为男人要死要活的姑娘，我喜欢那种会勇敢擦干脸上的泪转身就走的女孩，又冷又酷又美，就像西部片里的牛仔，杀完了人不屑地吹一吹枪口的烟，虽然你的爱情死了，但你的生活还在呢。",1461636002,"http://t2.qpic.cn/mblogpic/bea600671d2b19babc34/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("所有的生活中我最羡慕的其实是那种生活在一个小城市，从小到大的朋友，同学都离你不远，城市的变化也不大，从小长大的地方，还能再回去看看，三五朋友，烧烤啤酒。你可以觉得这样很没追求，但是我所追求的，就是有些人可以一直在你身边，伸手就能够得着。",1461636002,"http://t2.qpic.cn/mblogpic/9dc340866d78de82f450/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("一日之际在于晨，早晨的时光非常珍贵，所以因为早起而少睡的那些时间在这一天中是永远无法弥补的。",1461636002,"http://t1.qpic.cn/mblogpic/cb3c679ceafd0ff67cac/460") [ RunTime:0.0002s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("女生的所谓出去玩就是洗完头换上漂亮衣服找个地方自拍然后顺手发个状态",1461636002,"http://t2.qpic.cn/mblogpic/5162c0b3805ff888a5ee/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("有的人想要舒服的衣服，温和的烟卷，不加糖的柠檬水，有的人想要好看的衣服，浓烈的烟卷，甜到掉牙的柠檬水，就像有些人痴迷爱的踏实，有些人钟意爱的冲动，但有的人丧失了爱的能力，不是不能喜欢一个人，而是喜欢上之后变得畏畏缩缩，一段时间得不到回应就立马说服自己算了，越往后，就越是这样，希望看到这条微博的人，有喜欢的人，快去追，没有喜欢的人的话，如果遇到了，也别放手",1461636002,"http://t2.qpic.cn/mblogpic/0b0296fd495eebed7934/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("其实你并不内向，只是不擅长对不亲密的人开朗。",1461636002,"http://t2.qpic.cn/mblogpic/f51a5faac52bbce0288c/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("有一个世界未解之谜叫做:当你认真减肥的时候，饭局就没断过",1461636002,"http://t2.qpic.cn/mblogpic/b9f82585ac6c01951e84/460") [ RunTime:0.0001s ]
+SQL: insert into blog_shijuhua(content,ctime,pic) values ("科学家发现 每个人都会有某个时刻突然很想好好读书的念头 然后到书店买一堆书回家放着。",1461636002,"http://t1.qpic.cn/mblogpic/cc1c7741ffb2e6185906/460") [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+

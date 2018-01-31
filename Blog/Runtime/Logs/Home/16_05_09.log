@@ -1,0 +1,12 @@
+[ 2016-05-09T11:21:38+08:00 ] 122.207.223.191 /home/Index/js/nav.js
+ERR: 非法操作:js
+
+[ 2016-05-09T11:33:55+08:00 ] 120.194.101.93 /home/Index/js/nav.js
+ERR: 非法操作:js
+
+[ 2016-05-09T11:34:00+08:00 ] 120.194.101.93 /home/Index/js/nav.js
+ERR: 非法操作:js
+
+[ 2016-05-09T14:45:21+08:00 ] 220.181.108.139 /Home/Bowen/showfen/name/%E5%A4%A7%E8%AF%9Dphp%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
